@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 8rem 20rem 0rem 20rem;
+    margin: 8rem 20rem 8rem 20rem;
     gap: 5rem;
 }
 .home-image img {
