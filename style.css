@@ -166,7 +166,7 @@ span {
 
 /* DESIGN EXPERIENCE */
 .experience {
-    padding: 8rem 20rem 8 rem 20rem;
+    padding: 8rem 8rem 8rem 8rem;
 }
 .experience h1 {
     text-align: center;
@@ -178,17 +178,19 @@ span {
     margin: 0;
     padding: 4rem 10rem 4rem 10rem;
     grid-template-columns: 1fr 3px 1fr;
+    
 }
 
 .experience-timeline_component {
-    margin: 0 4rem 4rem 4rem;
+    margin: 4rem 4rem 4rem 4rem;
 }
 .experience-timeline_middle {
     position: relative;
-    background: linear-gradient(to top,#5C68C0 87% , rgba(255, 255, 255, 0) 13%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 3%,#5C68C0 1%, #5C68C0 93% , rgba(255, 255, 255, 0) 3%);
     top: 50%;
-    
-    
+}
+.experience-timeline_middle.last {
+    background: rgba(255, 255, 255, 0);
 }
 .experience-timeline_middle .experience-timeline_point {
     position: absolute;
@@ -201,25 +203,47 @@ span {
     transform: translateX(-50%);
 
 }
+.experience-timeline_middle .experience-timeline_point-second {
+    position: absolute;
+    border: 2px solid #BEC6FF;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
 .experience-timeline_bg {
     background-color: #786666;
-    padding: 2.5rem;
+    padding: 4.5rem 0.5rem 2.5rem 4.5rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.533);
+    width: 50rem;
+
 }
+.experience-timeline_component.experience-timeline_bg.left {
+    position: relative;
+    left: 24%;
+    
+}
+
 .experience-timeline_bg h3 {
     font-size: 2.3rem;
     font-weight: 700;
+}
+.experience-timeline_bg h4 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 90%;
 }
 .experience-timeline_bg h6 {
     font-size: 1.5rem;
     font-weight: normal;
     color: var(--font-second-color);
-    line-height: 90%;
+    line-height: 150%;
+    letter-spacing: 3px;
 }
 .experience-timeline_bg ul {
-    
     padding: 1rem 2.5rem 0 2.5rem;
     font-size: 1.9rem;
-    
 }
