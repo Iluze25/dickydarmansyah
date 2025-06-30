@@ -247,3 +247,36 @@ span {
     padding: 1rem 2.5rem 0 2.5rem;
     font-size: 1.9rem;
 }
+
+
+/* DESIGN HISTORY */
+.history {
+    background: var(--second-bg-color);
+    padding: 8rem 20rem 8rem 20rem;
+    
+}
+.history h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 60rem 60rem;
+    padding: 2rem;
+    gap: 10rem;
+    justify-content: center;
+    margin: 8rem;
+}
+.history-right {
+    position: relative;
+    top: 50%;
+}
+.history-content h2 {
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.history-content p {
+    font-size: 2rem;
+}
