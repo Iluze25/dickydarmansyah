@@ -283,20 +283,21 @@ span {
 /* ___________________FOOTER___________ */
 
 /* DESIGN CONTACT */
+.footer {
+    background: var(--bg-color) ;
+}
 .contact {
     display: flex;
     flex-direction: column;
     background-color: var(--bg-color);
-    margin: 8rem 20rem 8rem 20rem;
+    padding: 8rem 20rem 8rem 20rem;
     gap: 2rem;
 }
 
 .contact h1 {
     font-size: 4.3rem;
     font-weight: 300;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 1rem ;
+
 }
 .contact .contact-logo_content {
     display: flex;
@@ -342,4 +343,34 @@ span {
 .contact .contact-logo_content .contact-content  {
 
     font-size: 3.3rem;
+}
+
+/* FOOTER NAVIGATE */
+.nav-footer {
+  background: var(--bg-color);
+  display: flex;
+  width: 100%;
+  margin-left: 5rem;
+}
+
+.nav-footer a {
+  text-align: center;
+  padding: 2rem ;
+  font-size: 2.2rem;
+  color: var(--font-color);
+  text-decoration: none;
+  transition: .5s ease;
+  border-bottom: 1px solid var(--font-color);
+
+}
+.nav-footer a:hover {
+    color: var(--font-second-color);
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
