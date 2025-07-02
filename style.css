@@ -300,14 +300,14 @@ span {
 }
 .contact .contact-logo_content {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 .contact .contact-logo_content .contact-menu {
     display: grid;
     border: 2px solid var(--font-color);
     border-radius: 1rem;
     padding: 5rem;
-    grid-template-columns: 5rem 1fr;
+    grid-template-columns: 7rem 1fr;
     gap: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -324,13 +324,22 @@ span {
 }
 
 .contact .contact-logo_content .contact-menu .contact-logo {
+    display: flex;
     font-size: 5rem;
-    align-items: end;
+    align-items: center;
+}
+.contact .contact-logo_content .contact-menu .contact-logo i {
+    background: var(--font-color);
+    color: #2E2424;
+    border-radius: 1rem;
+
 }
 .contact .contact-logo_content .contact-menu .contact-name  {
     display: flex;
+    align-items: center;
 }
 
-.contact .contact-logo_content .contact-content p {
+.contact .contact-logo_content .contact-content  {
+
     font-size: 3.3rem;
 }
