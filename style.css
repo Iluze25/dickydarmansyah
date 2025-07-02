@@ -287,4 +287,36 @@ span {
     background-color: var(--bg-color);
     margin: 8rem 20rem 8rem 20rem;
 }
-.
+.contact h1 {
+    font-size: 4.3rem;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1rem ;
+}
+.contact-menu {
+    display: grid;
+    border: 2px solid var(--font-color);
+    border-radius: 1rem;
+    padding: 5rem;
+    grid-template-columns: 5rem 1fr;
+}
+.contact-menu a {
+   display: flex;
+  justify-content: center;  /* center horizontal */
+  align-items: center;      /* center vertical (middle align) */
+  text-align: center;
+    font-size: 2.3rem;
+    color: var(--font-color);
+    padding: 1rem;
+
+}
+
+.contact-menu i {
+    font-size: 5rem;
+    align-items: end;
+}
+.contact-name a {
+    display: flex;
+    text-align: left;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 80px auto;
+        grid-template-rows: repeat(3, 100px);
+        gap: 10px;
+        max-width: 500px;
+        margin: auto;
+        text-align: left;
+      }
+
+      .container p {
+        display: flex;
+        align-items: center; /* middle align (vertikal tengah) */
+        justify-content: center; /* default: tengah horizontal */
+        padding: 0 10px;
+        background: #eee;
+        margin: 0;
+        font-size: 1.5rem;
+        border: 1px solid #ccc;
+      }
+
+      .huruf {
+        justify-content: flex-start; /* rata kiri */
+        text-align: left;
+        left: -20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="angka">1</p>
+      <p class="huruf">a</p>
+      <p class="angka">2</p>
+      <p class="huruf">b</p>
+      <p class="angka">3</p>
+      <p class="huruf">c</p>
+    </div>
+  </body>
+</html>
